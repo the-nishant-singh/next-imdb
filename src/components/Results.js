@@ -1,6 +1,6 @@
 import React from "react";
 
-const Results = ({ data }) => {
+const Results = ({ data = [] }) => {
   return (
     <div>
       {data.map((item) => (
